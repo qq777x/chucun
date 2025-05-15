@@ -1,0 +1,22 @@
+一、配置步骤：
+
+rclone config
+1.n
+2,自定义名称：aliyun
+3,选择挂载方式：输入webdav前边的序号数字并回车
+4.输入已经部署好的webdav服务网址:  比如我的是 http://127.0.0.1:5244/dav/
+5,5
+6:输入用户名aliyun
+7:y  然后输入webdav服务网址的密码XXX（输入密码时默认无显示，共两次，输完回车）
+8:回车就可以
+9:n 不用高级设置选n
+10:y
+11:q  退出
+
+12.挂载命令
+rclone mount Alist:/ X: --cache-dir E:/Temp --vfs-cache-mode writes &
+
+
+
+rcd
+--rc-web-gui
